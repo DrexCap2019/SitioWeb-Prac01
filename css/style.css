@@ -3,6 +3,9 @@
 /* CSS variable*/
 @import url(./partials/_variables.css);
 
+/* importar global estilos */
+@import url(./partials/_global.css);
+
 
 /* Inicia Navegacion */
 .header_class .main_menu .navbar .navbar-brand{
@@ -72,7 +75,27 @@
 
 .site-main .site-banner .row {
 
-    padding-left: 100px;
+    padding: 80px 80px;
 }
+
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.3rem;
+}
+
+.site-main .site-banner .banner-image img{
+    padding: 1rem 1rem;
+    height: 30rem;
+   
+   width: 90rem;
+}
+
+
+
+
 
 /* End banner area*/
