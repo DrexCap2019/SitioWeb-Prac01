@@ -13,7 +13,7 @@
 
 .header_class .main_menu .navbar{
 
-    padding: 1rem 15rem;
+    padding: 1rem 12rem;
 }
 
 .header_class .main_menu .nav-item .nav-link {
@@ -22,7 +22,7 @@
     text-transform: uppercase;
     /* parece innecesario */
     font-weight: 500;
-    padding: 1.5rem;
+    padding: 0.9rem;
     color: var(--color-titulo);
 }
 
@@ -43,3 +43,36 @@
     background-color: text;
 }
 /* Fin Navegacion */
+
+/* Banner Area */
+
+.site-main .site-banner {
+
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+   
+}
+
+.site-main .site-banner .site-title h3{
+
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+
+  content: "";
+  height: 2px;
+  width: 20vw;
+  background: black;
+  display: inline-block;
+  margin-left: 7%;
+  transform: translateY(-15px);
+  
+}
+
+.site-main .site-banner .row {
+
+    padding-left: 100px;
+}
+
+/* End banner area*/
