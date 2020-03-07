@@ -58,3 +58,13 @@
     
  }
  
+ p.para{
+     color: var(--color-texto);
+     font: normal 500 16px/25px var(--roboto-slab);
+ 
+ }
+
+.font-Roboto_Slab{
+
+    font-family: var(--roboto-slab);
+}
