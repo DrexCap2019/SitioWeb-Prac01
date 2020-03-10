@@ -387,25 +387,25 @@
 /* Fin Suscribe Area */ 
 
 /* Inica Footer Ara */
-footer .footer-area{
+.footer-area{
     
     padding: 5rem 0;
     background: url(../img/footer-bg.png) no-repeat;
 }
 
-footer .footer-area .social h5{
+.footer-area .social h5{
 
     font: normal 500 23px/30px var(--roboto-slab);
 }
 
-footer .footer-area .social a > i{
+ .footer-area .social a > i{
 
     font-size: 22px;
     padding: 3rem;
     color: var(--color-border);
 }
 
-footer .footer-area .social a:hover >i {
+.footer-area .social a:hover >i {
 
     color: var(--color-primario);
 }

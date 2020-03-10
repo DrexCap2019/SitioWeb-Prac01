@@ -40,4 +40,25 @@ $(document).ready(function(){
   })
 
 
+  //Congelado barra de navegacion
+
+  let nav_offset_top =$('.header_class').height()+50;
+
+  function navbarFixed(){
+      if($('.header_class').length){
+
+        $(window).scroll(function(){
+
+            let scroll =$(window).scrollTop();
+            if(scroll >= nav_offset_top){
+                 $('.header_class .main-menu').addClass('navbar_xd');
+            }else {
+                 $('.header_class .main-menu').removeClass('navbar_xd');
+            }
+        })
+      }
+  }
+
+  navbarFixed();
+
 });
